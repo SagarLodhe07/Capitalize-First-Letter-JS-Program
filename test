@@ -1,0 +1,12 @@
+const sentence = "singapoore is best tourism place";
+
+const capitalizeFirstLetter = (string) => {
+  const words = string.split(" ");
+  return words
+    .map((char) => char.charAt(0).toUpperCase() + char.slice(1))
+    .join(" ");
+};
+
+console.log(capitalizeFirstLetter(sentence));
+
+/**Subscribe */
